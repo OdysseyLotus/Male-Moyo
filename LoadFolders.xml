@@ -26,4 +26,17 @@
 		<li IfModActive="Tormound.DragonianRacePrime">Dragonian-addon</li>
 		<li IfModActive="Vazrua.DragonianRacePrime2.0">Dragonian-addon</li>
     </v1.4>
+	<v1.5>
+        <li>1.5</li>
+		<li>Common</li>
+		<li IfModNotActive="imranfish.xmlextensions">Default</li>
+		<li IfModActive="imranfish.xmlextensions">Settings</li>
+		<li IfModActive="Nemonian.MYCartel">Moyo-TCA</li>
+		<li IfModActive="Nemonian.MY2.Beta">Moyo-Blood</li>
+		<li IfModActive="GloomyLynx.DragonianRace">Dragonian-addon</li>
+		<li IfModActive="GloomyLynx.DragonianGaramRace">Dragonian-addon</li>
+		<li IfModActive="Rebeka.DR">Dragonian-addon</li>
+		<li IfModActive="Tormound.DragonianRacePrime">Dragonian-addon</li>
+		<li IfModActive="Vazrua.DragonianRacePrime2.0">Dragonian-addon</li>
+    </v1.5>
 </loadFolders>

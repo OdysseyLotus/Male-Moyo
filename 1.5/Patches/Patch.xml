@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Moyo -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyTypes</xpath>
+		<value>
+			<li>Male</li>
+		</value>
+	</Operation>
+	
+	<!--<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/headTypes</xpath>
+		<value>
+			<headTypes>
+				<li>Female_MoyoHead</li>
+				<li>Female_MoyoHead1</li>
+				<li>Female_MoyoHead2</li>
+				<li>Female_MoyoHead3</li>
+				<li>Female_MoyoHead4</li>
+				<li>Female_MoyoHead5</li>
+				<li>Female_MoyoHead6</li>
+				<li>Female_MoyoHead7</li>
+				
+				<li>Male_MoyoHead</li>
+				<li>Male_MoyoHead1</li>
+				<li>Male_MoyoHead2</li>
+				<li>Male_MoyoHead3</li>
+				<li>Male_MoyoHead4</li>
+				<li>Male_MoyoHead5</li>
+				<li>Male_MoyoHead6</li>
+				<li>Male_MoyoHead7</li>
+			</headTypes>
+		</value>
+	</Operation>-->
+	
+	<!-- Offsets -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+		<value>
+			<headOffset>(-0.06, -0.05)</headOffset>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(0, 0)</Male>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0, 0.551)</Male>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.34, 0.193)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(0.0, 0.0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0.0, 0.0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(0.0, 0.0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(0.0, 0.0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0.0, 0.0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(0.0, 0.0)</Male>
+		</value>
+	</Operation>
+	
+	
+	<!-- Namers -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/CultureDef[defName="Moyo_RefugeeCulture"]</xpath>
+		<value>
+			<pawnNameMakerFemale>NamerMoyoFemale</pawnNameMakerFemale>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/CultureDef[defName="Moyo_RefugeeCulture"]</xpath>
+		<value>
+			<pawnNameMaker>NamerMoyoMale</pawnNameMaker>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/FactionDef[defName="Moyo_PlayerFaction"]/allowedCultures</xpath>
+		<value>
+			<allowedCultures>
+				<li>Moyo_RefugeeCulture</li>
+			</allowedCultures>
+		</value>
+	</Operation>
+
+	
+	<!-- Backstory -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[@Name="BaseMoyoBackStory"]/bodyTypeMale</xpath>
+		<value>
+			<bodyTypeMale>Male</bodyTypeMale>
+		</value>
+	</Operation>
+	
+	
+	<!-- Hair -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="Moyohair_LongBun"]/styleGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="Moyohair_LongBun2"]/styleGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="Moyohair_LongFluff"]/styleGender</xpath>
+		<value>
+			<styleGender>FemaleUsually</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="Moyohair_LongShade"]/styleGender</xpath>
+		<value>
+			<styleGender>FemaleUsually</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="Moyohair_LowTwin"]/styleGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="Moyohair_ShortBun"]/styleGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+
+</Patch>
