@@ -34,6 +34,21 @@
 		</value>
 	</Operation>-->
 	
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+		<value>
+			<headOffset>(-0.06, -0.07)</headOffset>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator</xpath>
+		<value>
+			<headFemaleOffset>(-0.07, -0.09)</headFemaleOffset>
+		</value>
+	</Operation>
+	
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/offsetDefaults/li[1]/offsets/south/bodyTypes</xpath>
 		<value>
