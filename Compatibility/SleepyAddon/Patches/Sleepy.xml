@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0, 0.83)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.424, 0.5)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.449, 0.5)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0, 0.83)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.424, 0.5)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.449, 0.5)</Male>
+		</value>
+	</Operation>
+	
+</Patch>

@@ -3,40 +3,42 @@
 	<v1.3>
         <li>1.3</li>
 		<li>Common</li>
-		<li IfModNotActive="imranfish.xmlextensions">Default</li>
-		<li IfModActive="imranfish.xmlextensions">Settings</li>
-		<li IfModActive="Nemonian.MYCartel">Moyo-TCA</li>
-		<li IfModActive="AhnDemi.racesleepfaceaddon2">SleepyAddon</li>
-		<li IfModActive="GloomyLynx.DragonianRace">Dragonian-addon</li>
-		<li IfModActive="GloomyLynx.DragonianGaramRace">Dragonian-addon</li>
-		<li IfModActive="Rebeka.DR">Dragonian-addon</li>
-		<li IfModActive="Tormound.DragonianRacePrime">Dragonian-addon</li>
-		<li IfModActive="Vazrua.DragonianRacePrime2.0">Dragonian-addon</li>
+		<li IfModNotActive="imranfish.xmlextensions">Compatibility/Default</li>
+		<li IfModActive="imranfish.xmlextensions">Compatibility/Settings</li>
+		<li IfModActive="Nemonian.MYCartel">Compatibility/Moyo-TCA</li>
+		<li IfModActive="AhnDemi.racesleepfaceaddon2">Compatibility/SleepyAddon</li>
+		<li IfModActive="GloomyLynx.DragonianRace">Compatibility/Dragonian-addon</li>
+		<li IfModActive="GloomyLynx.DragonianGaramRace">Compatibility/Dragonian-addon</li>
+		<li IfModActive="Rebeka.DR">Compatibility/Dragonian-addon</li>
+		<li IfModActive="Tormound.DragonianRacePrime">Compatibility/Dragonian-addon</li>
+		<li IfModActive="Vazrua.DragonianRacePrime2.0">Compatibility/Dragonian-addon</li>
     </v1.3>
 	<v1.4>
         <li>1.4</li>
 		<li>Common</li>
-		<li IfModNotActive="imranfish.xmlextensions">Default</li>
-		<li IfModActive="imranfish.xmlextensions">Settings</li>
-		<li IfModActive="Nemonian.MYCartel">Moyo-TCA</li>
-		<li IfModActive="AhnDemi.racesleepfaceaddon2">SleepyAddon</li>
-		<li IfModActive="GloomyLynx.DragonianRace">Dragonian-addon</li>
-		<li IfModActive="GloomyLynx.DragonianGaramRace">Dragonian-addon</li>
-		<li IfModActive="Rebeka.DR">Dragonian-addon</li>
-		<li IfModActive="Tormound.DragonianRacePrime">Dragonian-addon</li>
-		<li IfModActive="Vazrua.DragonianRacePrime2.0">Dragonian-addon</li>
+		<li IfModNotActive="imranfish.xmlextensions">Compatibility/Default</li>
+		<li IfModActive="imranfish.xmlextensions">Compatibility/Settings</li>
+		<li IfModActive="Thek.MYMaidDress">Compatibility/Maid</li>
+		<li IfModActive="Nemonian.MYCartel">Compatibility/Moyo-TCA</li>
+		<li IfModActive="AhnDemi.racesleepfaceaddon2">Compatibility/SleepyAddon</li>
+		<li IfModActive="GloomyLynx.DragonianRace">Compatibility/Dragonian-addon</li>
+		<li IfModActive="GloomyLynx.DragonianGaramRace">Compatibility/Dragonian-addon</li>
+		<li IfModActive="Rebeka.DR">Compatibility/Dragonian-addon</li>
+		<li IfModActive="Tormound.DragonianRacePrime">Compatibility/Dragonian-addon</li>
+		<li IfModActive="Vazrua.DragonianRacePrime2.0">Compatibility/Dragonian-addon</li>
     </v1.4>
 	<v1.5>
         <li>1.5</li>
 		<li>Common</li>
-		<li IfModNotActive="imranfish.xmlextensions">Default</li>
-		<li IfModActive="imranfish.xmlextensions">Settings</li>
-		<li IfModActive="Nemonian.MYCartel">Moyo-TCA</li>
-		<li IfModActive="Nemonian.MY2.Beta">Moyo-Blood</li>
-		<li IfModActive="GloomyLynx.DragonianRace">Dragonian-addon</li>
-		<li IfModActive="GloomyLynx.DragonianGaramRace">Dragonian-addon</li>
-		<li IfModActive="Rebeka.DR">Dragonian-addon</li>
-		<li IfModActive="Tormound.DragonianRacePrime">Dragonian-addon</li>
-		<li IfModActive="Vazrua.DragonianRacePrime2.0">Dragonian-addon</li>
+		<li IfModActive="Nemonian.MYCartel">Compatibility/Moyo-TCA</li>
+		<li IfModActive="Nemonian.MY2.Beta">Compatibility/Moyo-Blood</li>
+		<li IfModNotActive="imranfish.xmlextensions">Compatibility/Default</li>
+		<li IfModActive="imranfish.xmlextensions">Compatibility/Settings</li>
+		<li IfModActive="Thek.MYMaidDress">Compatibility/Maid</li>
+		<li IfModActive="GloomyLynx.DragonianRace">Compatibility/Dragonian-addon</li>
+		<li IfModActive="GloomyLynx.DragonianGaramRace">Compatibility/Dragonian-addon</li>
+		<li IfModActive="Rebeka.DR">Compatibility/Dragonian-addon</li>
+		<li IfModActive="Tormound.DragonianRacePrime">Compatibility/Dragonian-addon</li>
+		<li IfModActive="Vazrua.DragonianRacePrime2.0">Compatibility/Dragonian-addon</li>
     </v1.5>
 </loadFolders>
