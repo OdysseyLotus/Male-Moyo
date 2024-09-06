@@ -38,16 +38,16 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
 		<value>
-			<headOffset>(-0.06, -0.07)</headOffset>
+			<headOffset>(-0.06, -0.08)</headOffset>
 		</value>
 	</Operation>
 	
-	<Operation Class="PatchOperationAdd">
+	<!--<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator</xpath>
 		<value>
 			<headFemaleOffset>(-0.07, -0.09)</headFemaleOffset>
 		</value>
-	</Operation>
+	</Operation>-->
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Moyo"]/alienRace/generalSettings/alienPartGenerator/offsetDefaults/li[1]/offsets/south/bodyTypes</xpath>
@@ -143,6 +143,20 @@
 	<!-- Backstory -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/AlienRace.AlienBackstoryDef[@Name="Moyo2_BackstoryBase"]/bodyTypeMale</xpath>
+		<value>
+			<bodyTypeMale>Male</bodyTypeMale>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[@Name="Moyo2_BackstoryChild"]/bodyTypeMale</xpath>
+		<value>
+			<bodyTypeMale>Male</bodyTypeMale>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[@Name="Moyo2_BackstoryAdult"]/bodyTypeMale</xpath>
 		<value>
 			<bodyTypeMale>Male</bodyTypeMale>
 		</value>
